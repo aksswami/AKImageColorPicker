@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		093ED7EC1F6FAE7300030187 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093ED7EB1F6FAE7300030187 /* AppDelegate.swift */; };
+		093ED7EE1F6FAE7300030187 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093ED7ED1F6FAE7300030187 /* ViewController.swift */; };
+		093ED7F11F6FAE7300030187 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 093ED7EF1F6FAE7300030187 /* Main.storyboard */; };
+		093ED7F31F6FAE7300030187 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 093ED7F21F6FAE7300030187 /* Assets.xcassets */; };
+		093ED7F61F6FAE7300030187 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 093ED7F41F6FAE7300030187 /* LaunchScreen.storyboard */; };
+		093ED8011F6FAE7400030187 /* AKImageColorPickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093ED8001F6FAE7400030187 /* AKImageColorPickerTests.swift */; };
+		093ED80C1F6FAE7400030187 /* AKImageColorPickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093ED80B1F6FAE7400030187 /* AKImageColorPickerUITests.swift */; };
+		093ED81A1F6FAFDD00030187 /* UIImage+ColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093ED8191F6FAFDD00030187 /* UIImage+ColorPicker.swift */; };
+		093ED81C1F6FC6A800030187 /* AKColorPickerImageVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093ED81B1F6FC6A800030187 /* AKColorPickerImageVIew.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		093ED7FD1F6FAE7400030187 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 093ED7E01F6FAE7300030187 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 093ED7E71F6FAE7300030187;
+			remoteInfo = AKImageColorPicker;
+		};
+		093ED8081F6FAE7400030187 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 093ED7E01F6FAE7300030187 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 093ED7E71F6FAE7300030187;
+			remoteInfo = AKImageColorPicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		093ED7E81F6FAE7300030187 /* AKImageColorPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AKImageColorPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		093ED7EB1F6FAE7300030187 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		093ED7ED1F6FAE7300030187 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		093ED7F01F6FAE7300030187 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		093ED7F21F6FAE7300030187 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		093ED7F51F6FAE7300030187 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		093ED7F71F6FAE7300030187 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		093ED7FC1F6FAE7400030187 /* AKImageColorPickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AKImageColorPickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		093ED8001F6FAE7400030187 /* AKImageColorPickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AKImageColorPickerTests.swift; sourceTree = "<group>"; };
+		093ED8021F6FAE7400030187 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		093ED8071F6FAE7400030187 /* AKImageColorPickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AKImageColorPickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		093ED80B1F6FAE7400030187 /* AKImageColorPickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AKImageColorPickerUITests.swift; sourceTree = "<group>"; };
+		093ED80D1F6FAE7400030187 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		093ED8191F6FAFDD00030187 /* UIImage+ColorPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+ColorPicker.swift"; sourceTree = "<group>"; };
+		093ED81B1F6FC6A800030187 /* AKColorPickerImageVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AKColorPickerImageVIew.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		093ED7E51F6FAE7300030187 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		093ED7F91F6FAE7400030187 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		093ED8041F6FAE7400030187 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		093ED7DF1F6FAE7300030187 = {
+			isa = PBXGroup;
+			children = (
+				093ED7EA1F6FAE7300030187 /* AKImageColorPicker */,
+				093ED7FF1F6FAE7400030187 /* AKImageColorPickerTests */,
+				093ED80A1F6FAE7400030187 /* AKImageColorPickerUITests */,
+				093ED7E91F6FAE7300030187 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		093ED7E91F6FAE7300030187 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				093ED7E81F6FAE7300030187 /* AKImageColorPicker.app */,
+				093ED7FC1F6FAE7400030187 /* AKImageColorPickerTests.xctest */,
+				093ED8071F6FAE7400030187 /* AKImageColorPickerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		093ED7EA1F6FAE7300030187 /* AKImageColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				093ED7EB1F6FAE7300030187 /* AppDelegate.swift */,
+				093ED7ED1F6FAE7300030187 /* ViewController.swift */,
+				093ED7EF1F6FAE7300030187 /* Main.storyboard */,
+				093ED7F21F6FAE7300030187 /* Assets.xcassets */,
+				093ED7F41F6FAE7300030187 /* LaunchScreen.storyboard */,
+				093ED7F71F6FAE7300030187 /* Info.plist */,
+				093ED8191F6FAFDD00030187 /* UIImage+ColorPicker.swift */,
+				093ED81B1F6FC6A800030187 /* AKColorPickerImageVIew.swift */,
+			);
+			path = AKImageColorPicker;
+			sourceTree = "<group>";
+		};
+		093ED7FF1F6FAE7400030187 /* AKImageColorPickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				093ED8001F6FAE7400030187 /* AKImageColorPickerTests.swift */,
+				093ED8021F6FAE7400030187 /* Info.plist */,
+			);
+			path = AKImageColorPickerTests;
+			sourceTree = "<group>";
+		};
+		093ED80A1F6FAE7400030187 /* AKImageColorPickerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				093ED80B1F6FAE7400030187 /* AKImageColorPickerUITests.swift */,
+				093ED80D1F6FAE7400030187 /* Info.plist */,
+			);
+			path = AKImageColorPickerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		093ED7E71F6FAE7300030187 /* AKImageColorPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 093ED8101F6FAE7400030187 /* Build configuration list for PBXNativeTarget "AKImageColorPicker" */;
+			buildPhases = (
+				093ED7E41F6FAE7300030187 /* Sources */,
+				093ED7E51F6FAE7300030187 /* Frameworks */,
+				093ED7E61F6FAE7300030187 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AKImageColorPicker;
+			productName = AKImageColorPicker;
+			productReference = 093ED7E81F6FAE7300030187 /* AKImageColorPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		093ED7FB1F6FAE7400030187 /* AKImageColorPickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 093ED8131F6FAE7400030187 /* Build configuration list for PBXNativeTarget "AKImageColorPickerTests" */;
+			buildPhases = (
+				093ED7F81F6FAE7400030187 /* Sources */,
+				093ED7F91F6FAE7400030187 /* Frameworks */,
+				093ED7FA1F6FAE7400030187 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				093ED7FE1F6FAE7400030187 /* PBXTargetDependency */,
+			);
+			name = AKImageColorPickerTests;
+			productName = AKImageColorPickerTests;
+			productReference = 093ED7FC1F6FAE7400030187 /* AKImageColorPickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		093ED8061F6FAE7400030187 /* AKImageColorPickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 093ED8161F6FAE7400030187 /* Build configuration list for PBXNativeTarget "AKImageColorPickerUITests" */;
+			buildPhases = (
+				093ED8031F6FAE7400030187 /* Sources */,
+				093ED8041F6FAE7400030187 /* Frameworks */,
+				093ED8051F6FAE7400030187 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				093ED8091F6FAE7400030187 /* PBXTargetDependency */,
+			);
+			name = AKImageColorPickerUITests;
+			productName = AKImageColorPickerUITests;
+			productReference = 093ED8071F6FAE7400030187 /* AKImageColorPickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		093ED7E01F6FAE7300030187 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Aks;
+				TargetAttributes = {
+					093ED7E71F6FAE7300030187 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					093ED7FB1F6FAE7400030187 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 093ED7E71F6FAE7300030187;
+					};
+					093ED8061F6FAE7400030187 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 093ED7E71F6FAE7300030187;
+					};
+				};
+			};
+			buildConfigurationList = 093ED7E31F6FAE7300030187 /* Build configuration list for PBXProject "AKImageColorPicker" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 093ED7DF1F6FAE7300030187;
+			productRefGroup = 093ED7E91F6FAE7300030187 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				093ED7E71F6FAE7300030187 /* AKImageColorPicker */,
+				093ED7FB1F6FAE7400030187 /* AKImageColorPickerTests */,
+				093ED8061F6FAE7400030187 /* AKImageColorPickerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		093ED7E61F6FAE7300030187 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				093ED7F61F6FAE7300030187 /* LaunchScreen.storyboard in Resources */,
+				093ED7F31F6FAE7300030187 /* Assets.xcassets in Resources */,
+				093ED7F11F6FAE7300030187 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		093ED7FA1F6FAE7400030187 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		093ED8051F6FAE7400030187 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		093ED7E41F6FAE7300030187 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				093ED7EE1F6FAE7300030187 /* ViewController.swift in Sources */,
+				093ED81A1F6FAFDD00030187 /* UIImage+ColorPicker.swift in Sources */,
+				093ED81C1F6FC6A800030187 /* AKColorPickerImageVIew.swift in Sources */,
+				093ED7EC1F6FAE7300030187 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		093ED7F81F6FAE7400030187 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				093ED8011F6FAE7400030187 /* AKImageColorPickerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		093ED8031F6FAE7400030187 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				093ED80C1F6FAE7400030187 /* AKImageColorPickerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		093ED7FE1F6FAE7400030187 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 093ED7E71F6FAE7300030187 /* AKImageColorPicker */;
+			targetProxy = 093ED7FD1F6FAE7400030187 /* PBXContainerItemProxy */;
+		};
+		093ED8091F6FAE7400030187 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 093ED7E71F6FAE7300030187 /* AKImageColorPicker */;
+			targetProxy = 093ED8081F6FAE7400030187 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		093ED7EF1F6FAE7300030187 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				093ED7F01F6FAE7300030187 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		093ED7F41F6FAE7300030187 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				093ED7F51F6FAE7300030187 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		093ED80E1F6FAE7400030187 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		093ED80F1F6FAE7400030187 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		093ED8111F6FAE7400030187 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J7JWA4HGS6;
+				INFOPLIST_FILE = AKImageColorPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aks.AKImageColorPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		093ED8121F6FAE7400030187 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J7JWA4HGS6;
+				INFOPLIST_FILE = AKImageColorPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aks.AKImageColorPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		093ED8141F6FAE7400030187 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AKImageColorPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aks.AKImageColorPickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AKImageColorPicker.app/AKImageColorPicker";
+			};
+			name = Debug;
+		};
+		093ED8151F6FAE7400030187 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AKImageColorPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aks.AKImageColorPickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AKImageColorPicker.app/AKImageColorPicker";
+			};
+			name = Release;
+		};
+		093ED8171F6FAE7400030187 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AKImageColorPickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aks.AKImageColorPickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AKImageColorPicker;
+			};
+			name = Debug;
+		};
+		093ED8181F6FAE7400030187 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AKImageColorPickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aks.AKImageColorPickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AKImageColorPicker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		093ED7E31F6FAE7300030187 /* Build configuration list for PBXProject "AKImageColorPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				093ED80E1F6FAE7400030187 /* Debug */,
+				093ED80F1F6FAE7400030187 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		093ED8101F6FAE7400030187 /* Build configuration list for PBXNativeTarget "AKImageColorPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				093ED8111F6FAE7400030187 /* Debug */,
+				093ED8121F6FAE7400030187 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		093ED8131F6FAE7400030187 /* Build configuration list for PBXNativeTarget "AKImageColorPickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				093ED8141F6FAE7400030187 /* Debug */,
+				093ED8151F6FAE7400030187 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		093ED8161F6FAE7400030187 /* Build configuration list for PBXNativeTarget "AKImageColorPickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				093ED8171F6FAE7400030187 /* Debug */,
+				093ED8181F6FAE7400030187 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 093ED7E01F6FAE7300030187 /* Project object */;
+}
