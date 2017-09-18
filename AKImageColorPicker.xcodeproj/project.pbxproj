@@ -78,6 +78,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		093639311F6FF4450068B12B /* ColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				093ED8191F6FAFDD00030187 /* UIImage+ColorPicker.swift */,
+				093ED81B1F6FC6A800030187 /* AKColorPickerImageVIew.swift */,
+			);
+			path = ColorPicker;
+			sourceTree = "<group>";
+		};
 		093ED7DF1F6FAE7300030187 = {
 			isa = PBXGroup;
 			children = (
@@ -101,14 +110,13 @@
 		093ED7EA1F6FAE7300030187 /* AKImageColorPicker */ = {
 			isa = PBXGroup;
 			children = (
+				093639311F6FF4450068B12B /* ColorPicker */,
 				093ED7EB1F6FAE7300030187 /* AppDelegate.swift */,
 				093ED7ED1F6FAE7300030187 /* ViewController.swift */,
 				093ED7EF1F6FAE7300030187 /* Main.storyboard */,
 				093ED7F21F6FAE7300030187 /* Assets.xcassets */,
 				093ED7F41F6FAE7300030187 /* LaunchScreen.storyboard */,
 				093ED7F71F6FAE7300030187 /* Info.plist */,
-				093ED8191F6FAFDD00030187 /* UIImage+ColorPicker.swift */,
-				093ED81B1F6FC6A800030187 /* AKColorPickerImageVIew.swift */,
 			);
 			path = AKImageColorPicker;
 			sourceTree = "<group>";
